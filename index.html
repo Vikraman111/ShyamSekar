@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Shyam Sekar | Entrepreneur & Author</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">
+                <span class="signature">Shyam Sekar</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#book">Book</a>
+                <a href="#experts">Experts</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+        <section class="hero">
+            <!-- Hero Background Carousel -->
+            <div class="hero-bg">
+                <div class="bg-carousel-slides">
+                    <div class="bg-carousel-slide active">
+                        <img src="assets/Carousel-Images/img1.jpg" alt="Quote 1">
+                    </div>
+                    <div class="bg-carousel-slide">
+                        <img src="assets/Carousel-Images/img2.jpg" alt="Quote 2">
+                    </div>
+                    <div class="bg-carousel-slide">
+                        <img src="assets/Carousel-Images/img3.jpg" alt="Quote 3">
+                    </div>
+                    <div class="bg-carousel-slide">
+                        <img src="assets/Carousel-Images/img4.jpg" alt="Quote 4">
+                    </div>
+                    <div class="bg-carousel-slide">
+                        <img src="assets/Carousel-Images/img5.jpg" alt="Quote 5">
+                    </div>
+                </div>
+                <button class="carousel-nav prev" aria-label="Previous slide">❮</button>
+                <button class="carousel-nav next" aria-label="Next slide">❯</button>
+                <div class="carousel-indicators">
+                    <button class="indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+                    <button class="indicator" data-slide="1" aria-label="Go to slide 2"></button>
+                    <button class="indicator" data-slide="2" aria-label="Go to slide 3"></button>
+                    <button class="indicator" data-slide="3" aria-label="Go to slide 4"></button>
+                    <button class="indicator" data-slide="4" aria-label="Go to slide 5"></button>
+                </div>
+            </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <!-- Optional hero content -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <div class="container">
+            <h2>As Featured On</h2>
+            <div class="carousel-container">
+                <div class="carousel-track" id="featured-track">
+                    <div class="logo-item">
+                        <img src="assets/logos/The indian express.png" alt="The Indian Express" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/The hindu.png" alt="The Hindu" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Xime.png" alt="XIME" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Indian achievers furum.png" alt="Indian Achievers Forum" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Coach foundation.png" alt="Coach Foundation" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/CEO magazine.png" alt="CEO Magazine" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/SMB connect.png" alt="SMB Connect" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Startuppreneurs.png" alt="Startuppreneurs" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/MSME.png" alt="MSME" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/small exterprise.png" alt="Small Enterprise" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/The talk.png" alt="The Talk" loading="lazy">
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="logo-item">
+                        <img src="assets/logos/The indian express.png" alt="The Indian Express" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/The hindu.png" alt="The Hindu" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Xime.png" alt="XIME" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Indian achievers furum.png" alt="Indian Achievers Forum" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Coach foundation.png" alt="Coach Foundation" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Associated With Section -->
+    <section class="associated">
+        <div class="container">
+            <h2>Associated With</h2>
+            <div class="carousel-container">
+                <div class="carousel-track" id="associated-track">
+                    <div class="logo-item">
+                        <img src="assets/logos/IIT Madras.png" alt="IIT Madras" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/IIT Bombay.png" alt="IIT Bombay" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/IIT Kharagpur.png" alt="IIT Kharagpur" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/IIT Delhi.png" alt="IIT Delhi" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/BITSP.png" alt="BITS Pilani" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/EDII TN.png" alt="EDI Tamil Nadu" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/Patna identhon.png" alt="Patna Ideathon" loading="lazy">
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="logo-item">
+                        <img src="assets/logos/IIT Madras.png" alt="IIT Madras" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/IIT Bombay.png" alt="IIT Bombay" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/IIT Kharagpur.png" alt="IIT Kharagpur" loading="lazy">
+                    </div>
+                    <div class="logo-item">
+                        <img src="assets/logos/IIT Delhi.png" alt="IIT Delhi" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Shyam Sekar</h2>
+                <p>An accomplished entrepreneur and founder of StartupXperts, Shyam Sekar has dedicated his career to transforming startup ideas into successful businesses. With extensive experience in business consulting and startup mentoring, he helps entrepreneurs navigate their journey from concept to market leadership.</p>
+                <p>Through his work at StartupXperts, Shyam has guided numerous ventures to success, combining practical insights with strategic thinking to create sustainable business models.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Section -->
+    <section id="book" class="book">
+        <div class="container">
+            <div class="book-content">
+                <div class="book-image">
+                    <img src="assets/book-cover.jpg" alt="The Startup Alchemist Book">
+                </div>
+                <div class="book-info">
+                    <h2>The Startup Alchemist</h2>
+                    <h3>Turning Dreams into Gold: A Blueprint from Ideas to Reality</h3>
+                    <p>Discover the proven methodology for transforming your startup ideas into successful businesses. This comprehensive guide provides practical insights, strategic frameworks, and real-world examples to help you navigate your entrepreneurial journey.</p>
+                    <a href="https://amzn.in/d/94sUnlw" target="_blank" class="btn primary">Buy Now on Amazon</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="experts" class="testimonials">
+        <div class="container">
+            <h2>What Experts Say!</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quote-icon">❝</div>
+                    <p class="quote">A must-have handbook for every aspiring entrepreneur — blending valuable advice with real-world case studies to help build economically, technically, and socially viable products</p>
+                    <div class="author">
+                        <img src="assets/experts/Dr. Kamakoti.jpeg" alt="Dr. Rajesh Kumar" class="author-img">
+                        <div class="author-info">
+                            <h4>Dr. V. Kamakoti</h4>
+                            <p>Director, IIT Madras</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quote-icon">❝</div>
+                    <p class="quote">An insightful guide that demystifies the startup journey — blending experience, principles, and real-life examples to inspire the next generation of Indian entrepreneurs.</p>
+                    <div class="author">
+                        <img src="assets/experts/Mr. Mahesh.jpeg" alt="Sarah Chen" class="author-img">
+                        <div class="author-info">
+                            <h4>Mr. Mahesh Ramachandran</h4>
+                            <p>Venture Capitalist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="quote-icon">❝</div>
+                    <p class="quote">A thoughtful blend of modern startup wisdom and timeless Indian philosophy — a true thinking partner for founders striving to build with clarity, conviction, and compassion.</p>
+                    <div class="author">
+                        <img src="assets/experts/Mr. Natarajan.jpeg" alt="Prof. Michael Chang" class="author-img">
+                        <div class="author-info">
+                            <h4>Mr. Natarajan Malupillai</h4>
+                            <p>CEO – IIT Madras Research Park</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+                <div id="form-status" style="display: none; margin-top: 20px; padding: 15px; border-radius: 8px; text-align: center;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="signature">Shyam Sekar</span>
+                    <p>Turning Ideas into Gold</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#book">Book</a>
+                    <a href="#experts">Experts</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Shyam Sekar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script>
+        // Hero Background Carousel Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get carousel elements
+            const slides = document.querySelectorAll('.bg-carousel-slide');
+            const indicators = document.querySelectorAll('.indicator');
+            
+            let currentSlide = 0;
+            const slideCount = slides.length;
+            let slideInterval;
+            
+            // Function to show a specific slide
+            function showSlide(index) {
+                // Handle index boundaries first
+                if (index >= slideCount) index = 0;
+                if (index < 0) index = slideCount - 1;
+                
+                // Remove active class from current slide and indicator
+                slides[currentSlide].classList.remove('active');
+                indicators[currentSlide].classList.remove('active');
+                
+                // Update current slide index
+                currentSlide = index;
+                
+                // Add active class to new slide and indicator
+                slides[currentSlide].classList.add('active');
+                indicators[currentSlide].classList.add('active');
+            }
+            
+            // Set up click handlers for indicators
+            indicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => {
+                    showSlide(index);
+                    resetInterval();
+                });
+            });
+            
+            // Auto-advance slides
+            function startInterval() {
+                slideInterval = setInterval(() => {
+                    showSlide(currentSlide + 1);
+                }, 6000); // Change slide every 6 seconds
+            }
+            
+            // Reset interval after manual navigation
+            function resetInterval() {
+                clearInterval(slideInterval);
+                startInterval();
+            }
+            
+            // Set up click handlers for prev/next buttons
+            const prevButton = document.querySelector('.carousel-nav.prev');
+            const nextButton = document.querySelector('.carousel-nav.next');
+            
+            prevButton.addEventListener('click', () => {
+                showSlide(currentSlide - 1);
+                resetInterval();
+            });
+            
+            nextButton.addEventListener('click', () => {
+                showSlide(currentSlide + 1);
+                resetInterval();
+            });
+            
+            // Start the carousel
+            startInterval();
+        });
+    </script>
+    
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            offset: 100,
+            once: true
+        });
+    </script>
+</body>
+</html>
